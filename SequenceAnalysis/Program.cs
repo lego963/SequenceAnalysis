@@ -34,13 +34,16 @@ namespace SequenceAnalysis
                 }
                 var index = 0;
                 var sortedLetters = _messageLetterFrequency.OrderBy(item => item.Value).Reverse();
+                Console.WriteLine();
                 foreach (var item in sortedLetters)
                 {
+                    Console.WriteLine($"{item.Key}: {item.Value}");
                     message = message.Replace(item.Key, LetterFrequency[index++]);
                 }
                 var objWriter = new StreamWriter(@"C:\Users\rgyrbu\source\repos\SequenceAnalysis\Decyphered.txt");
                 objWriter.WriteLine(message);
                 objWriter.Close();
+                Console.ReadKey();
 
             }
             catch (Exception)
