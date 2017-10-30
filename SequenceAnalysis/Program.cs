@@ -42,9 +42,9 @@ namespace SequenceAnalysis
                 Console.ReadKey();
 
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                Console.WriteLine(e);
+                Console.WriteLine("Чёт не то");
                 throw;
             }
         }
