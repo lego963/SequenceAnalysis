@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenceAnalysis", "SequenceAnalysis\SequenceAnalysis.csproj", "{F290467A-0525-4E56-9DD2-A447CB092F24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F290467A-0525-4E56-9DD2-A447CB092F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F290467A-0525-4E56-9DD2-A447CB092F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F290467A-0525-4E56-9DD2-A447CB092F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F290467A-0525-4E56-9DD2-A447CB092F24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7A9546B-53BD-4630-89C6-01E4E4DF1EE1}
+	EndGlobalSection
+EndGlobal
